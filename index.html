@@ -3,56 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document actu</title>
+    <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#section-uno">Inicio</a></li>
-                <li><a href="#section-dos">Opciones</a></li>
-                <li><a href="#section-tres">Más</a></li>
-            </ul>
-            <input type="text">
-        </nav>
-    </header>
-    <section class="section-uno">
-        <h1>Videojuegos</h1>
-        <img  alt="Videojuegos" class="videojuegos-image">
-    </section>
+    <nav>
+        <header>
+                <input type="text">
+            <div class="menu">
+                <a href="#seccion-inicio"> Inicio </a>
+                <a href="#seccion-juegos"> Juegos </a>
+                <a href="#seccion-aventura"> Aventura </a>
+                <a href="#seccion-terror"> Terror </a>
+                <a href="#seccion-peleas"> Peleas </a>
+                <a href="#seccion-deportes"> Deportes</a>
+            </div>
+        </header>
+    </nav>
 
-    <section class="seccion-dos">
-        <div class="sec2-general">
-            <div class="sec2-content">
-                <img src="path/to/your/sec2-image.jpg" alt="Imagen de Videojuegos" class="sec2-image">
-                <p class="sec2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere harum autem dicta officia vitae iste in, adipisci nulla reiciendis. Corrupti quisquam repellat natus cumque maxime ad rem aliquid, fugit harum?</p>
+    <section id="seccion-inicio"class="pagina-uno">
+        <h1>video</h1>
+        <img src="mando.png" width="800">
+        <h1>games</h1>
+    </section>
+    <section id="seccion-juegos" class="section-2"></section>
+    <section id="seccion-aventura" class="section-3">
+        <div class="caja-aventura">
+            <h1>Aventura</h1>
+            <div class="juegos">
+                <div class="gratis">
+                    <h3>Gratis</h3>
+                    <img src="aventura-gratis.jpg" width="400">
+                    <p>Estos juegos son los mas jugados debido a su precio, pero tiene graficos bajos y hay varios juegos que no estan bien desarrollados, es por eso que se torna aburrido.</p>
+                </div>
+                <h1>VS</h1>
+                <div class="comprado">
+                    <h3>Comprado</h3>
+                    <img src="aventura-costo.jpg" width="400">
+                    <p>Estos juegos son los mas apreciados debido a sus buenos gráficos y la velocidad de juego, mayormente son los juegos mas interesantes que puedes encontrar. Pero tambien cuesta dinero.</p>
+                </div>
             </div>
         </div>
     </section>
-
-    <section class="section-tres">
-        <h2>Tipos de Videojuegos</h2>
-        <div class="contenedor">
-            <div class="tarj">
-                <h3>Juegos Iniciales</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nisi earum repellat aspernatur omnis alias deleniti nulla quos. Est eligendi eius ipsa quae et maiores sequi suscipit iste rem odio.</p>
+    <section id="seccion-terror" class="section-4"></section>
+    <section id="seccion-peleas" class="section-5"></section>
+    <div class="caja-deportes">
+        <h1>Deportes</h1>
+        <div class="juegos-deportes">
+            <div class="deporte">
+                <h3>Futbol</h3>
+                <img src="futbol.jpg" width="400" alt="Fútbol">
+                <p>Los videojuegos de fútbol, como FIFA y Pro Evolution Soccer, ofrecen una experiencia realista donde los jugadores pueden controlar a sus equipos favoritos y competir en ligas y torneos.</p>
             </div>
-            <div class="tarj">
-                <h3>Juegos Actuales</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis odit iure, iste blanditiis animi provident enim. Vel, necessitatibus, accusamus similique quis labore nam adipisci animi amet maiores, consequatur officiis accusantium?</p>
+            <h1>VS</h1>
+            <div class="deporte">
+                <h3>Voleibol</h3>
+                <img src="voleibol.jpg" width="400" alt="Voleibol">
+                <p>Los juegos de voleibol, como Volleyball Unbound, permiten a los jugadores experimentar la emoción de este deporte, con mecánicas que simulan los movimientos y estrategias del juego real.</p>
             </div>
         </div>
+        <div class="juegos-deportes">
+            <div class="deporte">
+                <h3>Baloncesto</h3>
+                <img src="baloncesto.jpg" width="400" alt="Baloncesto">
+                <p>Los videojuegos de baloncesto, como NBA 2K, ofrecen una jugabilidad inmersiva, donde los jugadores pueden crear sus propios equipos y competir en emocionantes partidos.</p>
+            </div>
+            <h1>VS</h1>
+            <div class="deporte">
+                <h3>Natación</h3>
+                <img src="natacion.jpg" width="400" alt="Natación">
+                <p>Los juegos de natación, como Swimming Challenge, permiten a los jugadores competir en diferentes estilos y distancias, simulando la experiencia de una competencia real en la piscina.</p>
+            </div>
+        </div>
+    </div>
+    <section id="seccion-deportes" class="section-6">
+        <div class="caja-deportes">
+            <h1>Deportes</h1>
+            <div class="juegos-deportes">
+                <div class="deporte">
+                    <h3>Futbol</h3>
+                    <img src="futbol.jpg" width="400" alt="Fútbol">
+                    <p>Los videojuegos de fútbol, como FIFA y Pro Evolution Soccer, ofrecen una experiencia realista donde los jugadores pueden controlar a sus equipos favoritos y competir en ligas y torneos.</p>
+                </div>
+                <h1>VS</h1>
+                <div class="deporte">
+                    <h3>Voleibol</h3>
+                    <img src="voleibol.jpg" width="400" alt="Voleibol">
+                    <p>Los juegos de voleibol, como Volleyball Unbound, permiten a los jugadores experimentar la emoción de este deporte, con mecánicas que simulan los movimientos y estrategias del juego real.</p>
+                </div>
+            </div>
+            <div class="juegos-deportes">
+                <div class="deporte">
+                    <h3>Baloncesto</h3>
+                    <img src="baloncesto.jpg" width="400" alt="Baloncesto">
+                    <p>Los videojuegos de baloncesto, como NBA 2K, ofrecen una jugabilidad inmersiva, donde los jugadores pueden crear sus propios equipos y competir en emocionantes partidos.</p>
+                </div>
+                <h1>VS</h1>
+                <div class="deporte">
+                    <h3>Natación</h3>
+                    <img src="natacion.jpg" width="400" alt="Natación">
+                    <p>Los juegos de natación, como Swimming Challenge, permiten a los jugadores competir en diferentes estilos y distancias, simulando la experiencia de una competencia real en la piscina.</p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
-    <section class="section-cuatro">
-        <h2>juegos mas populares</h2>
-    </section>
-
-    <section class="section-cinco">
-        
-    </section>
-
+</body>
+</html>
     <section class="section-seis">
         
     </section>
